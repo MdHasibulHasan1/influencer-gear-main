@@ -1,0 +1,146 @@
+/* common-style */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    background-color: #e02c6d;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+}
+.see-more-btn-sec{
+    margin-bottom:10px;
+}
+.preebook-btn, .join-btn{
+    border-radius: 20px;
+}
+/* header-section-start */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 5px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+nav ul{
+    
+    
+    
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* start-journey-section */
+.start-journey-section{
+    display: flex;
+    justify-content: space-between;
+}
+.start-journey-section>div{
+    width: 100%;
+    
+}
+.start-journey-side{
+    width: 100%;
+    transform: translateY(100px);}
+
+.start-journey-section .camera{
+    margin: 0 auto;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    
+
+
+    
+}
+.start-journey-section .camera img{
+    object-fit: contain;
+    object-position: center;
+}
+/* logo-section-start */
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-container div img{
+    width: 100%;
+}
+/* Popular Collection section */
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.detail{
+    font-size: 14px;
+}
+.product-container .product img{
+    width: 100%;
+}
+
+.product{
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fa-star, .fa-star-half-stroke{
+    color: yellow;
+}
+.stars span{
+    margin-left: 5px;
+
+}
+
+
+/* featured-product-container" */
+.featured-product-container div{
+    width: 100%;
+
+}
+.featured-product-container div img{
+    width: 100%;
+}
+.featured-product-container .featured-product-side{
+    transform: translateY(50px);
+}
+.featured-product-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+
+
+
+
+/* footer-section */
+footer{
+    margin: 0;
+    background-color: #0a0826;
+    color: white;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+
+
+
