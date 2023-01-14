@@ -51,6 +51,10 @@
         flex-direction: column-reverse;
         
     }
+    .start-journey-section>div{
+        width: 100%;
+        padding: 0 10px;
+    }
     .start-journey-section .camera{
         background-image: none;
     }

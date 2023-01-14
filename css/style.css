@@ -34,9 +34,6 @@ nav ul li a{
     
 }
 nav ul{
-    
-    
-    
     display: flex;
     gap: 5px;
     align-items: center;
