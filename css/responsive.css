@@ -1,6 +1,6 @@
 @media screen and (max-width:576px) {
     section{
-        width: 100%;
+        width: 95%;
     }
 
 
@@ -51,10 +51,7 @@
         flex-direction: column-reverse;
         
     }
-    .start-journey-section>div{
-        width: 100%;
-        padding: 0 10px;
-    }
+    
     .start-journey-section .camera{
         background-image: none;
     }
